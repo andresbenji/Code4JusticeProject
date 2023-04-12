@@ -16,6 +16,7 @@ nav{
     grid-template-rows: 12vh;
     width: 100%;
 }
+
 a {
     text-decoration: none;
 }
@@ -39,10 +40,12 @@ a {
     font-family: Epilogue;
     font-size: 20px;
 }
+
 .logo{
     margin: 25px;
    
 }
+
 .logo a{
     color: #FF5722;
     align-items: center;
@@ -75,28 +78,10 @@ footer{
     text-decoration: none;
     margin: 5px 10px;
     border-radius: 75%;
+    background: #FF5722;
+    color: white;
 }
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #FF5722;
-    color: white;
-}
-
-.fa-twitter {
-    background: #FF5722;
-    color: white;
-}
-
-.fa-instagram {
-    background: #FF5722;
-    color: white;
-}
- 
-.fa-linkedin {
-    background: #FF5722;
-    color: white;
 }
