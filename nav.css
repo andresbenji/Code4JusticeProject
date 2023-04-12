@@ -14,7 +14,6 @@ nav{
     background-color: #2D4059;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 12vh;
-    position: fixed;
     width: 100%;
 }
 
