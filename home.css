@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/heroImage.jpeg);
+    height: 76vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+}
+
+.intro h2{
+    padding: 30px;
+    width: 20em;
+}
+
+.page-links{
+    margin-top: 30px;
+    color: white;
+}
+
+.page-links a{
+    padding: 10px;
+    color: white;
+    background-color: #FF5722;
+    margin: 10px;
+    border-radius: 5%;
+    transition:0.5s all ease;
+}
+
+.page-links a:hover{
+    background-color: white;
+    color: #2D4059;
+    transform: scale(1.2);
+}
