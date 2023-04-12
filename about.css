@@ -11,12 +11,14 @@ Colors:
     text-align: center;
 }
 
+
 .membercontainer {
     padding: 0 10px 30px 10px;
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit ,minmax(15.625rem,1fr));
+    grid-template-columns: repeat(auto-fit ,minmax(24%,1fr));
+    grid-gap: .5rem 1rem;
 }
 
 .memberitem {
@@ -24,10 +26,14 @@ Colors:
     grid-template-rows: auto 1fr;
     border-radius: 1rem;
     transition: 1s ease-in-out;
-    width: 15.625rem;
+    min-width: 24%;
     height: auto;
     background-color: #EEEEEE;
     text-align: center;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .memberitem img{
@@ -35,4 +41,20 @@ Colors:
     width: 100%;
     height: auto;
     border-radius: 1rem 1rem 0 0;
+}
+
+@media (min-width:300px) {
+
+}
+
+@media (min-width:750px) {
+    
+}
+
+@media (min-width:1024px) {
+    
+}
+
+@media (min-width:11px) {
+    
 }
