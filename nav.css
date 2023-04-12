@@ -14,7 +14,6 @@ nav{
     background-color: #2D4059;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 12vh;
-    position: fixed;
     width: 100%;
 }
 a {
@@ -63,7 +62,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 15vh;
