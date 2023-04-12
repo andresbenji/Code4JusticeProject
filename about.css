@@ -6,3 +6,33 @@ Colors:
 #EEEEEE
 */
 
+.abouttxt {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.membercontainer {
+    padding: 0 10px 30px 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit ,minmax(15.625rem,1fr));
+}
+
+.memberitem {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 1rem;
+    transition: 1s ease-in-out;
+    width: 15.625rem;
+    height: auto;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.memberitem img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+}
