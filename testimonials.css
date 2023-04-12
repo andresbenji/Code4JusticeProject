@@ -139,3 +139,32 @@ img{
     opacity: 0;
     transition: all 0.6s ease-in;
 }
+
+label.first{
+    border-width:6px;
+    border-color:#DA532B;
+}
+
+label.second{
+    border-width: 6px;
+    border-color: purple;
+}
+
+label.third{
+    border:6px solid #54885F;
+}
+
+div.one {
+    left: 0;
+    opacity: 1;
+}
+
+div.two {
+    left: 0;
+    opacity: 1;
+}
+
+div.three {
+    left:0;
+    opacity: 1;
+}
