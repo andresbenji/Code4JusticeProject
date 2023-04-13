@@ -40,8 +40,8 @@
   }
   
   h4{
-    color:black; 
-    text-shadow: 0 2px white;
+    color:white; 
+    text-shadow: 0 1px black;
     margin:0;
   }
  
@@ -176,5 +176,30 @@
   #third:checked ~ div.three {
     left:0;
     opacity:1;
+  }
+  
+
+  /* For screens with a minimum width of 320px */
+@media screen and (max-width: 500px) {
+    .container {
+      width: 90%;
+    }
+    h2 {
+      font-size: 2.5em;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 10px;
+    }
+    img {
+      max-width: 13em;
+      max-height: 10em;
+    }
+
+  blockquote {
+    max-width: 19em;
+  }
   }
   
