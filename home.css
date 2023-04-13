@@ -75,3 +75,27 @@ body, html{
        margin: 10px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .intro h2{
+        width: 20em;
+    }
+    .intro{
+        font-size: 1.3em;
+    }
+    .page-links a{
+       margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .intro h2{
+        width: 20em;
+    }
+    .intro{
+        font-size: 1.7em;
+    }
+    .page-links a{
+       margin: 10px;
+    }
+}
