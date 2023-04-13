@@ -18,20 +18,20 @@
 
 input[type=text], input[type=number], textarea {
     width: 95%; /*sets form to take up whole page*/
-    padding: 10px; /*sets padding around the text in each submission box*/
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    padding: .625rem; /*sets padding around the text in each submission box*/
+    border: .063rem solid #ccc; 
+    border-radius: .25rem; 
+    margin-top: .375rem; 
+    margin-bottom: 1rem; 
     resize: vertical /*Allows for resizing of text area vertically*/
   }
   
   input[type=submit] { /*styling code for submit button*/
     background-color: #222831;
     color: white;
-    padding: 12px 20px;
+    padding: .75rem 1.25rem;
     border: none;
-    border-radius: 4px;
+    border-radius: .25rem;
     cursor: pointer; /*changes cursor to pointer when interacting*/
   }
   
@@ -40,9 +40,9 @@ input[type=text], input[type=number], textarea {
   }
   
   .contactcontainer { /*container for whole form*/
-    border-radius: 10px;
+    border-radius: .625rem;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 1.25rem;
     width: 50%;
     margin: auto;
   }
