@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Epilogue'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="home.html"><h1>XY Mental Health Foundation</h1></a>
+        </div>
+        <div class="menu">
+            <a href="home.html">Home</a>
+            <a href="stats.html">Statistics</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <main>
+        <Section class="QNAresources">
+            <h1>Need Help?</h1>
+            <br>
+            <h2>Want to learn more about men mental Health?</h2>
+            <br>
+            <button id="yourbuttonid">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <br><br>
+
+            <h2>What is the stigma with mens mental health?</h2>
+            <br>
+            <button id="yourbuttonid">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <br><br>
+
+            <h2>How to deal with mental health issues?</h2>
+            <br>
+            <button id="yourbuttonid">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <button href="" target="_blank">Resource</button>
+            <br><br>
+        </Section>
+        <form class="contactcontainer">
+            <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      
+          <label for="cellnum">Phone Number</label>
+          <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
+      
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email.." required>
+          
+          <label for="subject">How Can We Help?</label>
+          <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
+          
+          <input type="submit" value="Submit">
+        </form>
+        <br>
+    </main>
+    <footer>
+        <a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+</footer>
+<script>
+    document.getElementById("yourbuttonid").onclick = function () {
+        location.href = "https://www.mentalhelp.net/men/";
+    };
+</script>
+</body>
+</html>

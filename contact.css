@@ -1,0 +1,35 @@
+.QNAresources {
+    color: #EEEEEE;
+    text-align: center;
+}
+
+input[type=text], input[type=number], textarea {
+    width: 95%; /*sets form to take up whole page*/
+    padding: 10px; /*sets padding around the text in each submission box*/
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical /*Allows for resizing of text area vertically*/
+  }
+  
+  input[type=submit] { /*styling code for submit button*/
+    background-color: #222831;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /*changes cursor to pointer when interacting*/
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2D4059; /*changes the color of submit button when hovered over*/
+  }
+  
+  .contactcontainer { /*container for whole form*/
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
