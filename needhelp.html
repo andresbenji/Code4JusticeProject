@@ -20,7 +20,7 @@
             <a href="stats.html">Statistics</a>
             <a href="testimonials.html">Testimonials</a>
             <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Need Help</a>
         </div>
     </nav>
     <main>
@@ -29,43 +29,47 @@
             <br>
             <h2>Want to learn more about men mental Health?</h2>
             <br>
-            <button id="yourbuttonid">Resource</button>
-            <button href="" target="_blank">Resource</button>
-            <button href="" target="_blank">Resource</button>
+            <button id="resourcebutton">Resource</button>
+            <button><a href="https://behavioralhealth-centers.com/blog/men-mental-health-silence/?utm_source=google&utm_medium=cpc&utm_campaign=&utm_content=&utm_term=&gclid=CjwKCAjwrdmhBhBBEiwA4Hx5g1TV_DJBrHwgowEJQnleYDAUAZVn_FaPx_qHuqUtAenFBHxw40ByJxoCRqsQAvD_BwE" target="_blank" class="btnlink">Resource</a></button>
+            <button><a href="https://www.mindwise.org/blog/mental-health/a-critical-look-at-mens-mental-health/" target="_blank" class="btnlink">Resource</a></button>
             <br><br>
 
             <h2>What is the stigma with mens mental health?</h2>
             <br>
-            <button id="yourbuttonid">Resource</button>
-            <button href="" target="_blank">Resource</button>
-            <button href="" target="_blank">Resource</button>
+            <button><a href="https://orwfoundation.org/removing-the-mental-health-stimga-for-men/?gclid=CjwKCAjwrdmhBhBBEiwA4Hx5gzzWj9PABSoqgmo9y1a0TIG7YH2Bts2PSylAcol_10N7RmBWKlxv8BoCuToQAvD_BwE" target="_blank" class="btnlink">Resource</a></button>
+            <button><a href="https://www.mindsharepartners.org/post/masculinity-and-men-s-mental-health-in-the-workplace?utm_source=GOOGLE&utm_medium=CPC&gclid=CjwKCAjw0N6hBhAUEiwAXab-TVvgY-iyDnClSZt8Bm19uehibzcC74pzdYlsikJDNgOvEk3GpDLcRxoCDncQAvD_BwE" target="_blank" class="btnlink">Resource</a></button>
+            <button><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7444121/" target="_blank" class="btnlink">Resource</a></button>
             <br><br>
 
             <h2>How to deal with mental health issues?</h2>
             <br>
-            <button id="yourbuttonid">Resource</button>
-            <button href="" target="_blank">Resource</button>
-            <button href="" target="_blank">Resource</button>
+            <button><a href="https://www.samhsa.gov/serious-mental-illness" target="_blank" class="btnlink">Resource</a></button>
+            <button><a href="https://www.psychiatry.org/patients-families/helping-a-loved-one-cope-with-mental-illness" target="_blank" class="btnlink">Resource</a></button>
+            <button><a href="https://www.mayoclinic.org/diseases-conditions/mental-illness/in-depth/mental-health/art-20046477" target="_blank" class="btnlink">Resource</a></button>
             <br><br>
+            <h2>Contact Us</h2>
+            <br>
         </Section>
-        <form class="contactcontainer">
-            <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-      
-          <label for="cellnum">Phone Number</label>
-          <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email.." required>
-          
-          <label for="subject">How Can We Help?</label>
-          <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
-          
-          <input type="submit" value="Submit">
-        </form>
+        <section>
+            <form class="contactcontainer">
+                <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+            <label for="cellnum">Phone Number</label>
+            <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." required>
+            
+            <label for="subject">How Can We Help?</label>
+            <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
+            
+            <input type="submit" value="Submit">
+            </form>
+        </section>
         <br>
     </main>
     <footer>
@@ -75,9 +79,14 @@
         <a href="https://linkedin.com" target="_blank" class="fa fa-linkedin"></a>
 </footer>
 <script>
-    document.getElementById("yourbuttonid").onclick = function () {
-        location.href = "https://www.mentalhelp.net/men/";
-    };
+    const RsrcBtn = document.getElementById('resourcebutton');
+
+    RsrcBtn.addEventListener('click', () => {
+      window.open('https://www.mentalhelp.net/men/', '_blank');
+    }); 
+    // RsrcBtn is a variable that gets the element by ID
+    // For my JAVAScript I added an eventlistner that triggers uponclicking the button witht the id specified
+    // this eventlistener could have also been an on click
 </script>
 </body>
 </html>
