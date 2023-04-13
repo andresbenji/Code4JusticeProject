@@ -88,17 +88,20 @@ footer{
 }
 
 /* media queries */
-@media screen and (min-width: 390px){
+@media screen and (min-width: 320px){
    .logo a{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
    }
    .menu{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
    }
    a.fa{
         font-size: 0.7rem;
         width: 0.7rem;
    }
+   .menu a{
+    padding: 5px;
+}
 }
 
 @media screen and (min-width: 480px){
@@ -112,8 +115,19 @@ footer{
         font-size: 0.9rem;
         width: 0.9rem;
     }
+    .menu a{
+        padding: 5px;
+    }
 }
 
+@media screen and (min-width: 1024px){
+    .logo a{
+        font-size: 1.4rem;
+   }
+   .menu{
+        font-size: 1.2rem;
+   }
+}
 
 @media screen and (min-width: 1250px){
     .logo a{
