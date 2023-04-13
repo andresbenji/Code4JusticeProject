@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+.QNAresources button {
+    color: white;
+    background-color: #FF5722;
+    border: none;
+    padding: .5rem .5rem;
+    border-radius: .25rem;
+    margin: 1rem;
+}
+
 input[type=text], input[type=number], textarea {
     width: 95%; /*sets form to take up whole page*/
     padding: 10px; /*sets padding around the text in each submission box*/
@@ -32,4 +41,11 @@ input[type=text], input[type=number], textarea {
     padding: 20px;
     width: 50%;
     margin: auto;
+  }
+
+  
+  @media (max-width:600px) {
+     .contactcontainer {
+        width: 85%;
+     }
   }

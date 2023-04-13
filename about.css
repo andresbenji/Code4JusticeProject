@@ -6,6 +6,11 @@ Colors:
 #EEEEEE
 */
 
+.aboutmain {
+    height: auto;
+    width:auto;
+}
+
 .abouttxt {
     color: #EEEEEE;
     text-align: center;
@@ -48,7 +53,10 @@ ul {
 }
 
 @media (min-width:750px) {
-    
+    .aboutmain {
+        height: 76vh;
+        width:auto;
+    }
 }
 
 @media (min-width:1024px) {

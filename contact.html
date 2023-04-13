@@ -20,7 +20,7 @@
             <a href="stats.html">Statistics</a>
             <a href="testimonials.html">Testimonials</a>
             <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Need Help</a>
         </div>
     </nav>
     <main>
@@ -29,7 +29,7 @@
             <br>
             <h2>Want to learn more about men mental Health?</h2>
             <br>
-            <button id="yourbuttonid">Resource</button>
+            <button id="resourcebutton">Resource</button>
             <button href="" target="_blank">Resource</button>
             <button href="" target="_blank">Resource</button>
             <br><br>
@@ -47,25 +47,29 @@
             <button href="" target="_blank">Resource</button>
             <button href="" target="_blank">Resource</button>
             <br><br>
+            <h2>Contact Us</h2>
+            <br>
         </Section>
-        <form class="contactcontainer">
-            <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-      
-          <label for="cellnum">Phone Number</label>
-          <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email.." required>
-          
-          <label for="subject">How Can We Help?</label>
-          <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
-          
-          <input type="submit" value="Submit">
-        </form>
+        <section>
+            <form class="contactcontainer">
+                <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+            <label for="cellnum">Phone Number</label>
+            <input type="number" id="cellnum" name="phonenumber" placeholder="Your phone number.." required>
+        
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Your email.." required>
+            
+            <label for="subject">How Can We Help?</label>
+            <textarea id="subject" name="subject" placeholder="Write your order here.." style="height:200px" required>     </textarea>
+            
+            <input type="submit" value="Submit">
+            </form>
+        </section>
         <br>
     </main>
     <footer>
@@ -75,9 +79,14 @@
         <a href="https://linkedin.com" target="_blank" class="fa fa-linkedin"></a>
 </footer>
 <script>
-    document.getElementById("yourbuttonid").onclick = function () {
-        location.href = "https://www.mentalhelp.net/men/";
-    };
+    const RsrcBtn = document.getElementById('resourcebutton');
+
+    RsrcBtn.addEventListener('click', () => {
+      window.open('https://www.mentalhelp.net/men/', '_blank');
+    }); 
+    // RsrcBtn is a variable that gets the element by ID
+    // For my JAVAScript I added an eventlistner that triggers uponclicking the button witht the id specified
+    // this eventlistener could have also been an on click
 </script>
 </body>
 </html>
