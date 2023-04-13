@@ -48,21 +48,39 @@ ul {
     border-radius: 1rem 1rem 0 0;
 }
 
-@media (min-width:300px) {
-
+.abouttxt button {
+    color: white;
+    background-color: #FF5722;
+    border: none;
+    padding: .5rem .5rem;
+    border-radius: .25rem;
+    margin: 1rem;
+    text-decoration: none;
 }
 
-@media (min-width:750px) {
-    .aboutmain {
-        height: 76vh;
-        width:auto;
+.btnlink {
+    color: white;
+}
+
+@media (min-width:300px) {
+    .membercontainer{
+        grid-template-columns: repeat(auto-fit ,minmax(85%,1fr));
+    }
+}
+
+@media (min-width:700px) {
+ 
+    .membercontainer{
+        grid-template-columns: repeat(auto-fit ,minmax(45%,1fr));
     }
 }
 
 @media (min-width:1024px) {
-    
+    .membercontainer{
+        grid-template-columns: repeat(auto-fit ,minmax(20%,1fr));
+    }
 }
 
-@media (min-width:11px) {
-    
+@media (min-width:1224px) {
+
 }

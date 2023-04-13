@@ -12,6 +12,10 @@
     margin: 1rem;
 }
 
+.btnlink {
+    color: white;
+}
+
 input[type=text], input[type=number], textarea {
     width: 95%; /*sets form to take up whole page*/
     padding: 10px; /*sets padding around the text in each submission box*/
