@@ -7,16 +7,25 @@
     flex-direction: column;
   }
   
-footer{
-    position: absolute;
+  .hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/heroImage.jpeg);
+    height: 76vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-  a{
+footer{
+    positon:absolute;
+}
+ 
+a{
     color:#ccc;
   }
   .container{
-    width:500px;
-    min-height:315px;
+    width: 700px;
+    min-height:500px;
     margin:0 auto;
     position:relative;
     padding-bottom:30px;
@@ -24,7 +33,9 @@ footer{
   }
 
   h2{
-    color: #928566;
+    text-align:center;
+    text-shadow: 0 1px white;
+    color: white;
     margin: 0;
   }
   h6{
